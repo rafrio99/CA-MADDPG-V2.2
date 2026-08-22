@@ -1,0 +1,3 @@
+Method,Attention,Reward,Success Rate (%),Latency (ms),Energy (mJ)
+CA-MADDPG-V2.2,Enabled,-457.818,20.80,5122.10,80011.50
+CA-MADDPG-V2.2 w/o Attention,Disabled,-205.884,50.20,1660.61,37766.47
