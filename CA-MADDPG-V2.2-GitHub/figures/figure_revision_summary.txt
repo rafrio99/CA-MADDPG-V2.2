@@ -1,0 +1,17 @@
+# FINAL MANUSCRIPT FIGURES
+
+Fig. 1:
+CA-MADDPG-V2.2 framework architecture for joint UAV selection, CPU allocation, and bandwidth allocation in UAV-assisted IoT edge networks.
+
+Fig. 2:
+Performance analysis of CA-MADDPG-V2.2:
+(a) held-out resource-floor sensitivity with the validation-selected 0.98 floor highlighted;
+(b) per-seed success-rate stability using point-and-error visualization.
+
+Fig. 3:
+Latency-energy trade-off comparison among evaluated methods with success-rate annotations and clear method labels.
+
+File Format Recommendation:
+
+* PDF files are recommended for LaTeX manuscript submission.
+* 600-dpi PNG files are suitable for Microsoft Word or presentation use.
