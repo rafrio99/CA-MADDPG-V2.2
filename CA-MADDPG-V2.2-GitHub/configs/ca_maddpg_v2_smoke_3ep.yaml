@@ -1,0 +1,100 @@
+experiment:
+  name: ca_maddpg_v2_smoke_3ep
+  seed: 42
+  device: cuda
+  gpu_id: 0
+  model_name: CA-MADDPG-V2
+data:
+  task_file: data/processed_tasks.csv
+  uav_file: data/uav_profiles.csv
+environment:
+  num_agents: 10
+  episode_length: 100
+  shared_reward: true
+  task_features:
+  - task_type_code
+  - task_size_MB
+  - cpu_cycles_per_bit
+  - capability_MIPS
+  - task_cpu_demand_cycles
+  - delay_deadline_ms
+  - energy_deadline_mJ
+  - Battery_Level_%
+  - Signal_Strength_dBm
+  - distance_m
+  - channel_gain_dB
+  - bandwidth_MHz_x
+  - uplink_data_rate_Mbps
+  - uplink_power_transfer_mW
+  - task_priority_score
+  - Priority_Score
+  - time_sin
+  - time_cos
+  agent_features:
+  - mec_uav_cpu_GHz
+  - mec_uav_remaining_energy_mAh
+  - bandwidth_MHz_y
+  - uplink_rate_Mbps
+  - downlink_rate_Mbps
+  - aec_storage_GB
+  - aec_ram_GB
+  action:
+    dimension: 3
+    names:
+    - selection_score
+    - cpu_fraction
+    - bandwidth_fraction
+    minimum: 0.0
+    maximum: 1.0
+  reward_weights:
+    success: 2.0
+    latency: 1.0
+    energy: 0.5
+    deadline_violation: 2.0
+    resource_overload: 1.5
+    load_balance: 0.25
+  calibration:
+    task_size_bits_per_unit: 1000.0
+    workload_multiplier: 100.0
+    use_distance_rate_penalty: false
+    downlink_output_fraction: 0.05
+    maximum_compute_power_watts: 50.0
+    battery_voltage: 11.1
+training:
+  episodes: 3
+  batch_size: 256
+  replay_capacity: 2000
+  warmup_steps: 200
+  gamma: 0.99
+  tau: 0.0025
+  actor_learning_rate: 5.0e-05
+  critic_learning_rate: 0.0005
+  hidden_dimensions:
+  - 256
+  - 256
+  exploration_noise: 0.2
+  minimum_noise: 0.05
+  noise_decay: 0.9995
+  checkpoint_interval: 3
+  evaluation_interval: 3
+  evaluation_episodes: 3
+  log_interval: 1
+  gradient_clip_norm: 5.0
+model:
+  full_name: Shared Collaborative Attention-Enhanced Multi-Agent Deep Deterministic
+    Policy Gradient
+  short_name: CA-MADDPG-V2
+  architecture: shared_joint_attention
+  attention_embedding_dimension: 64
+  attention_heads: 4
+  attention_layers: 1
+  attention_dropout: 0.05
+  selection_temperature: 0.25
+  minimum_resource_fraction: 0.5
+  shared_joint_actor: true
+  shared_team_critic: true
+  softmax_uav_selection: true
+  separate_resource_head: true
+  use_agent_identity_embedding: true
+  use_residual_connection: true
+  use_layer_normalisation: true
