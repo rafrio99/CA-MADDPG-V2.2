@@ -1,0 +1,4 @@
+Method,Success Rate (%),Latency (ms),Energy (mJ)
+Full CA-MADDPG-V2.2,20.80,5122.10,80011.50
+w/o Joint-Attention Encoder,50.20,1660.61,37766.47
+w/o Safety Projection,50.40,1654.73,37452.15
