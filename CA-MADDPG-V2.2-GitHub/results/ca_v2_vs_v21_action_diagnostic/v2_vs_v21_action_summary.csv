@@ -1,0 +1,2 @@
+test_episodes,total_steps,same_selected_agent_percent,v2_dominant_agent,v2_dominant_share_percent,v21_dominant_agent,v21_dominant_share_percent,v2_unique_agents_selected,v21_unique_agents_selected,v2_mean_selected_cpu,v21_mean_selected_cpu,v2_mean_selected_bandwidth,v21_mean_selected_bandwidth
+30,3000,0.0,uav_U1,100.0,uav_U2,100.0,1,1,0.9973948859373728,0.9800591738224029,0.980737542629242,0.8750172862609228

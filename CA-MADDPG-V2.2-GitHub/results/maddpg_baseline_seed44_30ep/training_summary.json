@@ -1,0 +1,16 @@
+{
+  "experiment": "maddpg_baseline_seed44_30ep",
+  "device": "cuda:0",
+  "episodes_completed": 30,
+  "total_environment_steps": 3000,
+  "total_updates": 2500,
+  "best_evaluation_reward": -225.80105228818556,
+  "final_evaluation": {
+    "evaluation_reward": -241.41344563740458,
+    "evaluation_success_rate": 0.4699999999999999,
+    "evaluation_latency_ms": 2040.543897362116,
+    "evaluation_energy_mJ": 53716.43831494283
+  },
+  "total_training_seconds": 227.87550139427185,
+  "final_checkpoint": "checkpoints/maddpg_baseline_seed44_30ep/maddpg_final.pt"
+}

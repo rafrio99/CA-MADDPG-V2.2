@@ -1,0 +1,51 @@
+FINAL CONFERENCE RESULT SUMMARY
+================================
+
+Proposed model:
+CA-MADDPG-V2.2
+
+Evaluation protocol:
+- Training seeds: 42, 43, and 44
+- Fixed evaluation episodes per model: 100
+- Resource floor: 0.98
+- Resource floor selected using held-out validation
+- Fixed benchmark test episodes were not used for model selection
+
+Main result:
+- CA-MADDPG-V2.2 success rate:
+  49.36%
+- MADDPG success rate:
+  48.43%
+- Improvement:
+  0.93
+  percentage points
+- Relative success improvement:
+  1.91%
+
+Efficiency improvement over MADDPG:
+- Reward improvement:
+  7.81
+- Latency reduction:
+  101.77 ms
+  (5.70%)
+- Energy reduction:
+  4687.92 mJ
+  (10.81%)
+
+Statistical evidence:
+- Paired t-test p:
+  6.856641e-25
+- Wilcoxon p:
+  8.187352e-16
+- Paired Cohen dz:
+  1.3845
+
+Permitted manuscript claim:
+CA-MADDPG-V2.2 significantly outperformed the
+MADDPG learning baseline while reducing latency
+and energy consumption.
+
+Claim limitation:
+CA-MADDPG-V2.2 did not outperform the latency
+heuristic in success rate. Do not claim that the
+proposed model outperformed every benchmark.

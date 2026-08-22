@@ -1,0 +1,28 @@
+{
+  "experiment": "ca_maddpg_v2_smoke_3ep",
+  "model": "CA-MADDPG-V2",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "training_seed": 42,
+  "episodes_completed": 3,
+  "total_environment_steps": 300,
+  "total_updates": 45,
+  "batch_size": 256,
+  "warmup_steps": 200,
+  "minimum_resource_fraction": 0.5,
+  "best_evaluation_success_rate": 0.15,
+  "best_evaluation_reward": -494.86388876537075,
+  "final_evaluation": {
+    "evaluation_reward": -493.49439463829486,
+    "evaluation_reward_std": 37.92431662455691,
+    "evaluation_success_rate": 0.16666666666666666,
+    "evaluation_success_std": 0.04932882862316248,
+    "evaluation_latency_ms": 5639.686898495416,
+    "evaluation_energy_mJ": 86198.43764381406,
+    "evaluation_selection_entropy": 1.9480187189579008,
+    "evaluation_selection_gap": 0.2338602664570014
+  },
+  "total_training_seconds": 11.207293580286205,
+  "final_checkpoint": "checkpoints/ca_maddpg_v2_smoke_3ep/ca_maddpg_v2_final.pt",
+  "training_metrics": "logs/ca_maddpg_v2_smoke_3ep/training_metrics.csv"
+}

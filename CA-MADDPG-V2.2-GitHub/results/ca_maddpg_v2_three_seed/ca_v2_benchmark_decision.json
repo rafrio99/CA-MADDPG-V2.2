@@ -1,0 +1,9 @@
+{
+  "ca_maddpg_v2_success_rate_percent": 45.72,
+  "maddpg_three_seed_success_rate_percent": 48.43333333333333,
+  "latency_heuristic_success_rate_percent": 50.83,
+  "crossed_maddpg_three_seed_mean": false,
+  "significantly_crossed_maddpg": false,
+  "crossed_latency_heuristic": false,
+  "significantly_crossed_heuristic": false
+}

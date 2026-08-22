@@ -1,0 +1,4 @@
+training_seed,checkpoint,resource_floor
+42,checkpoints/ca_maddpg_v2_seed42_10ep/ca_maddpg_v2_best.pt,0.98
+43,checkpoints/ca_maddpg_v2_seed43_10ep/ca_maddpg_v2_best.pt,0.98
+44,checkpoints/ca_maddpg_v2_seed44_10ep/ca_maddpg_v2_best.pt,0.98

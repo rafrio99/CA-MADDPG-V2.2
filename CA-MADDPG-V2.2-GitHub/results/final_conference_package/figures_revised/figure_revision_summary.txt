@@ -1,0 +1,17 @@
+REVISED MANUSCRIPT FIGURES
+==========================
+
+Fig. 1:
+Overall success comparison with exact values, error bars, hatches, and proposed-model emphasis.
+
+Fig. 2:
+Held-out resource-floor sensitivity with the validation-selected 0.98 floor highlighted.
+
+Fig. 3:
+Per-seed point-and-error plot with MADDPG reference line.
+
+Fig. 4:
+Latency-energy trade-off with non-overlapping method labels and success-rate annotations.
+
+PDF files are recommended for LaTeX manuscripts.
+600-dpi PNG files are suitable for Microsoft Word.

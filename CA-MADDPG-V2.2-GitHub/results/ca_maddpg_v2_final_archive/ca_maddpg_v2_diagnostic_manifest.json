@@ -1,0 +1,34 @@
+{
+  "created_at_utc": "2026-07-26T14:56:31.685745+00:00",
+  "previous_model": "CA-MADDPG-V2",
+  "new_model": "CA-MADDPG-V2.1",
+  "v2_three_seed_success_percent": 45.72,
+  "maddpg_three_seed_success_percent": 48.433333,
+  "latency_heuristic_success_percent": 50.83,
+  "diagnosed_problem": "Seed-sensitive CPU resource-allocation collapse",
+  "diagnostic_evidence": {
+    "seed42_selected_cpu": 0.997395,
+    "seed42_success_percent": 49.6,
+    "seed44_selected_cpu": 0.5486,
+    "seed44_success_percent": 40.266667,
+    "seed42_and_seed44_dominant_agent": "uav_U1"
+  },
+  "v21_changes": {
+    "minimum_cpu_fraction": 0.75,
+    "minimum_bandwidth_fraction": 0.75,
+    "target_cpu_fraction": 0.9,
+    "target_bandwidth_fraction": 0.9,
+    "resource_adequacy_coefficient": 0.05,
+    "selection_entropy_coefficient": 0.002
+  },
+  "preserved_files": [
+    "results/ca_maddpg_v2_final_archive/ca_maddpg_v2_components.py",
+    "results/ca_maddpg_v2_final_archive/ca_maddpg_v2.py",
+    "results/ca_maddpg_v2_final_archive/train_ca_maddpg_v2.py",
+    "results/ca_maddpg_v2_final_archive/evaluate_ca_maddpg_v2_three_seed.py",
+    "results/ca_maddpg_v2_final_archive/diagnose_ca_v2_seed_selection.py",
+    "results/ca_maddpg_v2_final_archive/ca_maddpg_v2_seed42_10ep.yaml",
+    "results/ca_maddpg_v2_final_archive/ca_maddpg_v2_seed43_10ep.yaml",
+    "results/ca_maddpg_v2_final_archive/ca_maddpg_v2_seed44_10ep.yaml"
+  ]
+}

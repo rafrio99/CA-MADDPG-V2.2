@@ -1,0 +1,15 @@
+{
+  "model": "CA-MADDPG-V2.2",
+  "resource_floor": 0.98,
+  "resource_floor_selection_source": "held-out validation",
+  "fixed_test_used_for_floor_selection": false,
+  "v22_success_rate_percent": 49.36,
+  "maddpg_three_seed_success_percent": 48.43333333333333,
+  "latency_heuristic_success_percent": 50.83,
+  "crossed_maddpg_three_seed_mean": true,
+  "significantly_crossed_maddpg": true,
+  "crossed_latency_heuristic": false,
+  "significantly_crossed_heuristic": false,
+  "original_v2_success_percent": 45.72,
+  "improved_over_original_v2": true
+}

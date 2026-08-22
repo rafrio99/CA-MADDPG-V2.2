@@ -1,0 +1,28 @@
+{
+  "experiment": "ca_maddpg_v2_seed43_10ep",
+  "model": "CA-MADDPG-V2",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "training_seed": 43,
+  "episodes_completed": 10,
+  "total_environment_steps": 1000,
+  "total_updates": 501,
+  "batch_size": 256,
+  "warmup_steps": 500,
+  "minimum_resource_fraction": 0.5,
+  "best_evaluation_success_rate": 0.48,
+  "best_evaluation_reward": -223.5337970730605,
+  "final_evaluation": {
+    "evaluation_reward": -215.8019423278738,
+    "evaluation_reward_std": 29.533989269129655,
+    "evaluation_success_rate": 0.492,
+    "evaluation_success_std": 0.048488257455915146,
+    "evaluation_latency_ms": 1726.1732048079698,
+    "evaluation_energy_mJ": 38289.880312043606,
+    "evaluation_selection_entropy": 0.9073945471756162,
+    "evaluation_selection_gap": 0.360158332079649
+  },
+  "total_training_seconds": 59.285208862274885,
+  "final_checkpoint": "checkpoints/ca_maddpg_v2_seed43_10ep/ca_maddpg_v2_final.pt",
+  "training_metrics": "logs/ca_maddpg_v2_seed43_10ep/training_metrics.csv"
+}

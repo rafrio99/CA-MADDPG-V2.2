@@ -1,0 +1,37 @@
+{
+  "baseline": "MADDPG",
+  "status": "complete",
+  "verified_at_utc": "2026-07-25T23:32:20.634999+00:00",
+  "files": {
+    "maddpg_three_seed_episode_results.csv": {
+      "size_bytes": 22406,
+      "rows": 300,
+      "columns": 7,
+      "sha256": "cc48792a3a84cacbdf9d93fc84990be65e40e83a9b949fb161ac90aedec622df"
+    },
+    "maddpg_three_seed_summary.csv": {
+      "size_bytes": 721,
+      "rows": 3,
+      "columns": 13,
+      "sha256": "34496fcfb8f1ba882c9d7decd86a2392514f51c977b56e93c55ac587e8589c8f"
+    },
+    "robust_baseline_episode_comparison.csv": {
+      "size_bytes": 27460,
+      "rows": 300,
+      "columns": 6,
+      "sha256": "14690084820e615d8d5c8b1decafc161e349e96d46fa48cf0e298583367b7c92"
+    },
+    "robust_baseline_summary.csv": {
+      "size_bytes": 766,
+      "rows": 3,
+      "columns": 12,
+      "sha256": "46c6380f6b385d001c0befed36c9ff1738cd521a38e052e5d8504d19de8493b9"
+    },
+    "robust_baseline_paired_tests.csv": {
+      "size_bytes": 846,
+      "rows": 2,
+      "columns": 13,
+      "sha256": "999269081226b8f65feb757d890fb69ffa435a745b386db81221c9c6e2a56a67"
+    }
+  }
+}

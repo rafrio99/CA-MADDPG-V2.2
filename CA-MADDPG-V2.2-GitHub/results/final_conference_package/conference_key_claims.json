@@ -1,0 +1,24 @@
+{
+  "proposed_model": "CA-MADDPG-V2.2",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "fixed_evaluation_episodes_per_seed": 100,
+  "resource_floor": 0.98,
+  "resource_floor_selected_on": "held-out validation seeds",
+  "v22_success_rate_percent": 49.36,
+  "maddpg_success_rate_percent": 48.43333333333333,
+  "success_improvement_percentage_points": 0.9266666666666694,
+  "success_relative_improvement_percent": 1.9132828630419878,
+  "reward_improvement": 7.809827543538233,
+  "latency_reduction_ms": 101.7729016442272,
+  "latency_reduction_percent": 5.698648561184834,
+  "energy_reduction_mJ": 4687.91700342916,
+  "energy_reduction_percent": 10.813095246922128,
+  "success_paired_ttest_p": 6.856641273133524e-25,
+  "success_wilcoxon_p": 8.187352158673354e-16,
+  "success_cohen_dz": 1.3844870129426716,
+  "crossed_latency_heuristic": false
+}

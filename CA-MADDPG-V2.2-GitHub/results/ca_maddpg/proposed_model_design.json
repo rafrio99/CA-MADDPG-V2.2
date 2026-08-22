@@ -1,0 +1,30 @@
+{
+  "paper_title": "Collaborative Edge Intelligence for UAV-Assisted IoT Communication and Adaptive Resource Management",
+  "proposed_model": "CA-MADDPG",
+  "full_model_name": "Collaborative Attention-Enhanced Multi-Agent Deep Deterministic Policy Gradient",
+  "baseline_model": "MADDPG",
+  "main_novelty": [
+    "Collaborative multi-head attention over all UAV observations.",
+    "Context-aware decentralised actor decisions for UAV selection and resource allocation.",
+    "Attention-pooled centralised critics for improved joint-state evaluation."
+  ],
+  "action_outputs": [
+    "UAV selection score",
+    "CPU allocation fraction",
+    "Bandwidth allocation fraction"
+  ],
+  "fair_comparison_conditions": {
+    "training_episodes": 30,
+    "training_seed": 42,
+    "warmup_steps": 500,
+    "batch_size": 256,
+    "identical_environment": true,
+    "identical_dataset": true,
+    "identical_reward": true,
+    "identical_test_episodes": true
+  },
+  "baseline_targets": {
+    "maddpg_three_seed_success_rate_percent": 48.433333,
+    "latency_heuristic_success_rate_percent": 50.83
+  }
+}

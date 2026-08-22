@@ -1,0 +1,28 @@
+{
+  "archived_at_utc": "2026-07-26T13:06:02.583455+00:00",
+  "version_1_status": "Technically valid but below MADDPG baseline",
+  "version_1_best_success_percent": 44.95,
+  "maddpg_seed42_target_percent": 49.63,
+  "latency_heuristic_target_percent": 50.83,
+  "diagnosed_primary_problem": "Near-tied UAV-selection scores and unstable agent ranking",
+  "preserved_files": [
+    "results/ca_maddpg_v1_archive/ca_maddpg_seed42_30ep.yaml",
+    "results/ca_maddpg_v1_archive/ca_maddpg_components.py",
+    "results/ca_maddpg_v1_archive/ca_maddpg.py",
+    "results/ca_maddpg_v1_archive/train_ca_maddpg.py"
+  ],
+  "existing_version_1_checkpoints": [
+    "checkpoints/ca_maddpg_seed42_30ep/ca_maddpg_best.pt",
+    "checkpoints/ca_maddpg_seed42_30ep/ca_maddpg_final.pt"
+  ],
+  "version_2_corrections": [
+    "Shared joint actor",
+    "Dedicated softmax UAV-selection head",
+    "Separate resource-allocation head",
+    "Shared cooperative critic",
+    "Reduced learning rates",
+    "Lower attention dropout",
+    "Stronger gradient clipping",
+    "Slower target-network updates"
+  ]
+}
