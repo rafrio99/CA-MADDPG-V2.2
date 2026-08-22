@@ -1,0 +1,16 @@
+{
+  "experiment": "maddpg_pilot_30ep",
+  "device": "cuda:0",
+  "episodes_completed": 30,
+  "total_environment_steps": 3000,
+  "total_updates": 2500,
+  "best_evaluation_reward": -182.8727241127141,
+  "final_evaluation": {
+    "evaluation_reward": -222.81254763349716,
+    "evaluation_success_rate": 0.4889999999999999,
+    "evaluation_latency_ms": 1743.8403417831928,
+    "evaluation_energy_mJ": 40810.62570034411
+  },
+  "total_training_seconds": 217.92066383361816,
+  "final_checkpoint": "checkpoints/maddpg_pilot_30ep/maddpg_final.pt"
+}

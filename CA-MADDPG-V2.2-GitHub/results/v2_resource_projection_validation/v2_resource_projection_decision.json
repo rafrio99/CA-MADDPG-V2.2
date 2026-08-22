@@ -1,0 +1,10 @@
+{
+  "selection_dataset": "held_out_validation_seeds_710000_to_710049",
+  "fixed_test_seeds_used_for_selection": false,
+  "selected_resource_floor": 0.98,
+  "validation_success_rate_percent": 49.413333333333334,
+  "validation_mean_reward": -215.65612007205155,
+  "validation_mean_latency_ms": 1704.5681474854152,
+  "validation_mean_energy_mJ": 39430.111857968506,
+  "model_definition": "CA-MADDPG-V2 with inference-time resource safety projection"
+}

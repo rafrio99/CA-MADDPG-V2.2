@@ -1,0 +1,16 @@
+{
+  "experiment": "maddpg_learning_smoke",
+  "device": "cuda:0",
+  "episodes_completed": 7,
+  "total_environment_steps": 700,
+  "total_updates": 437,
+  "best_evaluation_reward": -198.7800960416554,
+  "final_evaluation": {
+    "evaluation_reward": -222.8455711614512,
+    "evaluation_success_rate": 0.4889999999999999,
+    "evaluation_latency_ms": 1744.2857365276893,
+    "evaluation_energy_mJ": 40803.938641787485
+  },
+  "total_training_seconds": 24.333287477493286,
+  "final_checkpoint": "checkpoints/maddpg_learning_smoke/maddpg_final.pt"
+}

@@ -1,0 +1,4 @@
+training_seed,saved_episode,checkpoint
+42,10,checkpoints/ca_maddpg_v2_seed42_10ep/ca_maddpg_v2_best.pt
+43,10,checkpoints/ca_maddpg_v2_seed43_10ep/ca_maddpg_v2_best.pt
+44,10,checkpoints/ca_maddpg_v2_seed44_10ep/ca_maddpg_v2_best.pt
