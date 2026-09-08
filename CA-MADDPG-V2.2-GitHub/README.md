@@ -177,5 +177,8 @@ file for details.
 
 ## Contact
 
-For questions, reproducibility issues, or bug reports, please open an issue in
-this GitHub repository.
+For questions, reproducibility issues, or bug reports, please open an issue in this GitHub repository.
+
+Name: Yeasin Arafat  
+Email: yeasinarafat@std.uestc.edu.cn  
+Personal Email: rafrio99@gmail.com
